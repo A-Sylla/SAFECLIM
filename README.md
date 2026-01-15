@@ -6,7 +6,7 @@ The study focuses on identifying delayed (lagged) effects of temperature, humidi
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 - **Objective:**  
   To evaluate how climatic variability influences *Salmonella* contamination in poultry using data-driven, non-linear modeling approaches.
@@ -22,7 +22,7 @@ The study focuses on identifying delayed (lagged) effects of temperature, humidi
 
 ---
 
-## 📊 Methods
+## Methods
 
 - **Models evaluated:**
   - XGBoost
@@ -33,7 +33,7 @@ The study focuses on identifying delayed (lagged) effects of temperature, humidi
 - **Class imbalance handling:**
   - Native class weighting
   - SMOTE-based strategies
-  - Baseline (no rebalancing)
+  - Baseline (no SMOTE)
 
 - **Evaluation metrics:**
   - AUC-ROC
