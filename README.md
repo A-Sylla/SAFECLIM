@@ -48,7 +48,3 @@ The study focuses on identifying delayed (lagged) effects of temperature, humidi
 
 - **Data Availability**
 Due to confidentiality constraints, raw surveillance data are not publicly available.
-Synthetic or aggregated data examples may be provided for reproducibility.
-
-- **Scientific Context**
-This work supports climate-informed food safety risk assessment and contributes to the understanding of delayed environmental drivers of Salmonella contamination in poultry systems.
