@@ -1,6 +1,3 @@
-# SAFECLIM
-Machine learning framework to assess climate-driven risk of Salmonella contamination in poultry using lagged meteorological variables (France case study)
-
 # Climate-Driven Risk of Salmonella Contamination in Poultry
 
 This repository contains the code and analysis pipeline used to assess the influence of climatic conditions on the risk of *Salmonella* contamination in poultry production systems in France, using machine learning approaches.
