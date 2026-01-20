@@ -175,10 +175,10 @@ def build_lags(climat_df, salmon_df, max_days=42, interval=7):
 # 3. Data loading
 # =============================================================================
 
-# NOTE: Les données brutes (microbiologiques et climatiques) ne sont pas incluses dans ce dépôt pour des raisons de confidentialité.
-# L'utilisateur doit fournir ses propres fichiers et définir les chemins ci-dessous (ou via un fichier de configuration).
+# NOTE: Raw data (microbiological and climatic) is not included in this repository for confidentiality reasons.
+# The user must provide their own files and define the paths below (or via a configuration file).
 #
-# Exemple :
+# Example :
 # SALMONELLA_PATH = "data/salmonella_data.xlsx"
 # CLIMATE_PATH    = "data/climate_data.xlsx"
 
@@ -188,8 +188,7 @@ def build_lags(climat_df, salmon_df, max_days=42, interval=7):
 # dataset_ish = build_lag_features(climat, salmonella)
 # dataset_ish.to_excel("dataset_final_with_lags.xlsx", index=False)
 
-
-dataset_ish = pd.read_excel(dataset_final_prelevements_with_lags.xlsx")
+dataset_ish = pd.read_excel("dataset_final_prelevements_with_lags.xlsx")
 
 df = dataset_ish[dataset_ish["climate"].isin(["oceanic", "altered oceanic"])].copy()
 
