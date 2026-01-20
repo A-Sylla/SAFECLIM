@@ -48,3 +48,4 @@ The study focuses on identifying delayed (lagged) effects of temperature, humidi
 
 - **Data Availability**
 Due to confidentiality constraints, raw surveillance data are not publicly available.
+The code is provided for full methodological reproducibility. Users must supply their own data following the expected format.
