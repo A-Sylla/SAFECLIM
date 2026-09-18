@@ -197,6 +197,16 @@ y = df["positif"]
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, stratify=y, random_state=RANDOM_STATE)
 
+### TEMPORAL TRAIN / TEST SPLIT if longer time series avalaible
+#train = df[df["annee"] < 2020].copy()   # Toutes les années avant 2020 pour l'entraînement
+#test = df[df["annee"] == 2020].copy()   # 2020 comme test temporel indépendant
+#features = get_lag_features(df)         # Variables explicatives
+#X_train = train[features]
+#y_train = train["positif"]
+#X_test = test[features]
+#y_test = test["positif"]
+
+
 # =============================================================================
 # 4. Models
 # =============================================================================
